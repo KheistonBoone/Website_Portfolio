@@ -1,13 +1,36 @@
-.div1 {
+h1 { text-decoration: palegreen;
+
+}
+
+
+
+
+
+body{
+
+    background-color: hotpink;
+
+}
+
+header{
     width: 300px;
     height: 100px;
     border: 1px solid greenyellow;
   }
   
-  .div2 {
-    width: 300px;
-    height: 100px;
-    padding: 50px;
-    border: 1px solid pink;
-  }
+p{ background-color: khaki;
 
+
+}
+
+div{ background-color: orange;
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid yellow;
+    }
