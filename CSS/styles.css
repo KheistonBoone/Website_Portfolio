@@ -32,5 +32,27 @@ div{ background-color: orange;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 1px solid yellow;
+    border: 1px solid rgb(0, 255, 128);
     }
+
+
+    form{
+padding: 16px;
+background-color: rgb(237, 140, 240);
+font-style: italic;
+boarder-style: solid;
+font-weight: 600;
+    }
+
+    input[type=button] :hover {
+    border: maroon;
+      background-color: rgb(185, 27, 51);
+      padding: 6px;
+    }
+
+    input[type=text]: focus {
+        background-color: lightpink;
+        colorL red;
+        width: 200%;
+        padding: 6px;
+      }
